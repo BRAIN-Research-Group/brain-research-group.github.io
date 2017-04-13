@@ -35,17 +35,20 @@ p {
 }
 
 a:link{
-	color: #E9AB17;
+	/*color: #E9AB17;*/
+	color: #6fc6d9;
 	text-decoration: none;
 }
 
 a:hover{
-	color: #ba4775;
+	/*color: #ba4775;*/
+	color: #56c2b1;
 	text-decoration: none;
 }
 
 a:visited{
-	color: #fff;
+	/*color: #fff;*/
+	color: #E9AB17;
 	text-decoration: none;
 }
 
@@ -62,6 +65,10 @@ GENERAL STYLES
 .panel-body a:link, a:visited, a:hover {
 	color: #fff !important;
 }
+
+/*.news a:link, a:visited, a:hover {
+	color: ##6fc6d9 !important;
+}*/
 
 .site-holder {
 	width: auto !important;
@@ -654,6 +661,15 @@ PORTFOLIO STYLES
 
 .portfolio-filters .btn {
 	margin-right: 10px;
+}
+
+.news .portfolio-icon {
+	background-color: #56c2b1 !important;
+	color: #fff !important;
+}
+
+.news a:visited, a:hover {
+	color: #E9AB17 !important;
 }
 
 
